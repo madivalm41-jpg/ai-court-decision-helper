@@ -57,7 +57,7 @@ except Exception:
     TRANSFORMERS_AVAILABLE = False
 
 # ---------------- CONFIG ----------------
-DATASET_PATH = r"C:\Users\Hp\OneDrive\Desktop\Nayaanuman\CJPE_ext_SCI_HCs_Tribunals_daily_orders_single.csv"
+DATASET_PATH = r"https://drive.google.com/file/d/1eZ_KqW957a0Lij8q-w8HeRUQfoinXHWN/view?usp=drive_link"
 CLEANED_DATASET = "court_cleaned_dataset.csv"
 VECT_FILE = "court_tfidf_vect.joblib"
 EMB_FILE = "s2v_embeddings.npy"
